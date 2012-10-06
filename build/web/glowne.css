@@ -1,0 +1,32 @@
+/* 
+    Document   : glowne
+    Created on : 2012-10-06, 16:39:38
+    Author     : szu
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+* {
+    margin:0;
+    padding:0;
+    }
+    
+body{  
+     background: #f6f6f6 url(background.png) repeat fixed;
+     background-position: center;
+            
+    }
+#wrapper{
+        padding: 20px;
+        background-color: white; 
+        background-position: center;
+        border: 1px solid #ccc;
+        width: 903px; /* content width + .right border */
+        height: 600px;
+	margin: 70px auto 0;
+	opacity: 0.95;
+        -moz-box-shadow: 0px 0px 10px rgba(0,0,0,0.55);
+	-khtml-box-shadow: 0px 0px 10px rgba(0,0,0,0.55);
+	-webkit-box-shadow: 0px 0px 10px rgba(0,0,0,0.55);
+	-o-box-shadow: 0px 0px 10px rgba(0,0,0,0.55);
+        } 
